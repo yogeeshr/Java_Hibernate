@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hibernate Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hibernate ---
+[INFO] Deleting /Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hibernate ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hibernate ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hibernate ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hibernate ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hibernate ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ hibernate ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hibernate] in [/Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/target/hibernate]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/src/main/webapp]
+[INFO] Webapp assembled in [19 msecs]
+[INFO] Building war: /Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/target/hibernate.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ hibernate ---
+[INFO] Installing /Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/target/hibernate.war to /Users/yogeesh.rajendra/.m2/repository/com/yogeesh/hibernate/hibernate/1.0-SNAPSHOT/hibernate-1.0-SNAPSHOT.war
+[INFO] Installing /Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/pom.xml to /Users/yogeesh.rajendra/.m2/repository/com/yogeesh/hibernate/hibernate/1.0-SNAPSHOT/hibernate-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] >>> tomcat7-maven-plugin:2.0:run (default-cli) > compile @ hibernate >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hibernate ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hibernate ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< tomcat7-maven-plugin:2.0:run (default-cli) < compile @ hibernate <<<
+[INFO] 
+[INFO] --- tomcat7-maven-plugin:2.0:run (default-cli) @ hibernate ---
+[INFO] Running war on http://localhost:9091/hibernate
+[INFO] Creating Tomcat server configuration at /Users/yogeesh.rajendra/Documents/HUB/Personal/work/github/Java_Hibernate/hibernate/target/tomcat
+[INFO] create webapp with contextPath: /hibernate
+Sep 18, 2017 10:37:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9091"]
+Sep 18, 2017 10:37:00 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Sep 18, 2017 10:37:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.30
+Sep 18, 2017 10:37:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9091"]
